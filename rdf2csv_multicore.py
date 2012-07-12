@@ -119,7 +119,7 @@ def write_lines(args):
 		if not item:
 			break
 		count, s, p, o = item
-		bqcsv.writerow((count, s, p, o))	
+		bqcsv.writerow((s, p, o))	
 	outfile.close()		
 			
 def parse_lines(args):
